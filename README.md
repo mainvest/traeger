@@ -25,10 +25,10 @@ const data = {
 }
 
 axios.post('/', data)
+```
 
-/*
-Resulting request data:
-
+This will send the following request data:
+```
 {
   audit: {
     city: "Pawnee",
@@ -36,5 +36,4 @@ Resulting request data:
     budget: "data:text/csv;charset=undefined,parks%2C1000000%0Arecreation%2C1000000"
   }
 }
-*/
 ```
