@@ -1,0 +1,23 @@
+{
+  "name": "traeger",
+  "description": "Axios interceptor that converts File objects in deeply nested request data into base64 encoded strings.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --colors --coverage --forceExit",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mainvest/traeger"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "jest": "^24.9.0",
+    "nock": "^11.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
